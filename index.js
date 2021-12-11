@@ -14,8 +14,7 @@ function practice() {
         }
 
         if (answer === "" || answer === null) {
-            array.pop(); // удаляет пустой элемент
-            array.pop(); // удаляет последний введенный элемент
+            array.pop(); 
             console.log(array);
         }
 
